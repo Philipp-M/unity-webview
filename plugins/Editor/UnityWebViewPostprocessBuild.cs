@@ -105,8 +105,8 @@ public class UnityWebViewPostprocessBuild
             proj.AddFrameworkToProject(proj.TargetGuidByName("Unity-iPhone"), "WebKit.framework", false);
 #endif
             File.WriteAllText(projPath, proj.WriteToString());
-#endif
         }
+#endif
     }
 }
 
